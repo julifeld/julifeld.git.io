@@ -1,0 +1,50 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+	font-weight: lighter;
+
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f53561;
+}
+
+#nav, #main {
+	margin: 30px 50px;
+}
+#nav {
+	height: 60px;
+	margin-right: 20px;
+}
+#nav h1 {
+	float: left;
+	font-size: 60px;
+	line-height: 60px;
+	color: #f53561;
+}
+#nav ul {
+	float: right;
+}
+#nav li {
+	float: left;
+}
+
+#nav ul li a {
+	display: inline-block;
+	padding: 20px 30px;
+}
+
+#main {
+	background-image: url(images/poppies.jpg);
+	background-position: center right;
+	background-repeat: no-repeat;
+	padding: 200px 0px;
+	font-size: 40px;
+	line-height: 1.25em;
+}
