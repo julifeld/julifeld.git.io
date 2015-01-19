@@ -42,6 +42,7 @@ a:hover {
 
 #main {
 	background-image: url(images/juliaprofilepic.png);
+	background-size: 600px;
 	background-position: center right;
 	background-repeat: no-repeat;
 	padding: 200px 0px;
