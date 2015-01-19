@@ -5,6 +5,10 @@ body {
 	font-weight: lighter;
 
 }
+h1 a {
+	color: #f53561;
+	text-decoration: none;
+}
 
 a {
 	color: #000;
