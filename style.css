@@ -20,6 +20,10 @@ a:hover {
 	color: #f53561;
 }
 
+a:active {
+		color: #f53561;
+}
+
 #nav, #main {
 	margin: 30px 50px;
 }
@@ -53,4 +57,25 @@ a:hover {
 	padding: 200px 0px;
 	font-size: 40px;
 	line-height: 1.25em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 1.5em;
+	padding-left: 20px;
+}
+
+h3 {
+	font-size: 20px;
+	line-height:1.5em;
+	padding-left: 20px;
+	text-align: center;
+}
+
+p {
+	font-size: 15px;
+	line-height:1.5em;
+	padding-left: 20px;
+	text-align: center;
 }
