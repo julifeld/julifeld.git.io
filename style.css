@@ -1,16 +1,13 @@
+/* General Identifications */
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	color:#666666;
 	line-height: 1.5em;
 	font-weight: 100;
-
-}
-h1 a {
-	color: #f53561;
-	text-decoration: none;
 }
 
+/* Nav Bar */
 a {
 	color: #666666;
 	text-decoration: none;
@@ -33,9 +30,9 @@ a:active {
 }
 #nav h1 {
 	float: left;
-	font-size: 60px;
 	line-height: 60px;
 	color: #f53561;
+	font-size: 60px;
 }
 #nav ul {
 	float: right;
@@ -43,39 +40,94 @@ a:active {
 #nav li {
 	float: left;
 }
-
 #nav ul li a {
 	display: inline-block;
 	padding: 20px 30px;
 }
 
+/* Home Page Content */
+h1 a {
+	color: #f53561;
+	text-decoration: none;
+}
 #main {
 	background-image: url(images/juliaprofilepic.png);
 	background-size: 600px;
 	background-position: center right;
 	background-repeat: no-repeat;
 	padding: 200px 0px;
-	font-size: 40px;
 	line-height: 1.25em;
+	font-size: 50px;
+	font-weight: 100;
 }
 
-h2 {
+/* About Page Content */
+/* Overview Section */
+.overview {
+	margin: 200px 250px;
+}
+.overview h2 {
 	text-align: center;
 	font-size: 30px;
 	line-height: 1.5em;
+	padding-bottom: 20px;
+}
+.overview p {
+	font-size: 15px;
+	line-height:1.5em;
 	padding-left: 20px;
+	text-align: center;
 }
 
+/* Skillset Section */
+.skillset h2 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 1.5em;
+	padding-bottom: 20px;
+}
 h3 {
 	font-size: 20px;
 	line-height:1.5em;
 	padding-left: 20px;
 	text-align: center;
 }
-
-p {
-	font-size: 15px;
-	line-height:1.5em;
-	padding-left: 20px;
+.skillset p {
 	text-align: center;
 }
+.design {
+	display: inline-block;
+	width: 33.33333%;
+	float: left;
+	margin: 20px 0 50px 0;
+}
+.html {
+	display: inline-block;
+	width: 33.33333%;
+	float: left;
+	margin: 20px 0 50px 0;
+}
+.photoshop {
+	display: inline-block;
+	width: 33.33333%;
+	float: left;
+	margin: 20px 0 50px 0;
+}
+.illustrator {
+	display: inline-block;
+	width: 33.33333%;
+	float: left;
+	margin: 20px 0 50px 0;
+}
+.version_control {
+	display: inline-block;
+	width: 33.33333%;
+	float: left;
+	margin: 20px 0 50px 0;
+} 
+.other {
+	display: inline-block;
+	width: 33.33333%;
+	float: left;
+	margin: 20px 0 50px 0;
+} 
