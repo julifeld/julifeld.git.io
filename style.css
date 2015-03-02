@@ -1,133 +1,169 @@
-/* General Identifications */
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 13px;
+	font-size: 10px;
 	color:#666666;
 	line-height: 1.5em;
 	font-weight: 100;
 }
 
 /* Nav Bar */
-a {
-	color: #666666;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #f53561;
-}
-
-a:active {
-		color: #f53561;
-}
-
-#nav, #main {
-	margin: 30px 50px;
-}
 #nav {
-	height: 60px;
-	margin-right: 20px;
-}
-#nav h1 {
-	float: left;
-	line-height: 60px;
-	color: #f53561;
-	font-size: 60px;
-}
-#nav ul {
-	float: right;
-}
-#nav li {
-	float: left;
-}
-#nav ul li a {
-	display: inline-block;
-	padding: 20px 30px;
+	background-color:#F6F6F6;
+	padding: 50px;
 }
 
-/* Home Page Content */
-h1 a {
-	color: #f53561;
+/* Julia Feld */
+#juliafeld {
+	background-color:#727C80;
+	padding: 235px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#juliafeld h1 {
+	color: #E7E6E6;
+	font-size: 40px;
+	letter-spacing: 0.3em;
+	word-spacing: .3em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+#juliafeld h2 {
+	color: #E7E6E6;
+	font-size: 20px;
+	letter-spacing: 0.3em;
+	word-spacing: .3em;
+	line-height: 1.5em;
+	margin-bottom: 100px;
+}
+#juliafeld p {
+	color: #FEFEFF;
+	font-size: 10px;
+	line-height: 1.5em;
+}
+.contactbutt {
+	background-color:#3B4143;
+	width: 150px;
+	margin:0px auto;
+	border: 2px solid #3B4143;
+    border-radius: 25px;
+}
+.contactbutt a {
+	display:block;
+	padding: 10px;
 	text-decoration: none;
-}
-#main {
-	background-image: url(images/juliaprofilepic.png);
-	background-size: 600px;
-	background-position: center right;
-	background-repeat: no-repeat;
-	padding: 200px 0px;
-	line-height: 1.25em;
-	font-size: 50px;
-	font-weight: 100;
-}
-
-/* About Page Content */
-/* Overview Section */
-.overview {
-	margin: 200px 250px;
-}
-.overview h2 {
-	text-align: center;
-	font-size: 30px;
-	line-height: 1.5em;
-	padding-bottom: 20px;
-}
-.overview p {
 	font-size: 15px;
-	line-height:1.5em;
-	padding-left: 20px;
-	text-align: center;
-}
-
-/* Skillset Section */
-.skillset h2 {
-	text-align: center;
-	font-size: 30px;
 	line-height: 1.5em;
-	padding-bottom: 20px;
+	color: #FEFEFF;
+}
+/* About */
+#about {
+	background-color:#FEFEFF;
+}
+.image {
+	float: left;
+	line-height: 0;
+	overflow: hidden;
+	width: 40%;
+}
+.hr {
+	position: center;
+	padding-top: 100px;
+	padding-bottom:100px;
+	color:#E7E6E6;
+}
+.text {
+	float: right;
+	overflow: hidden;
+	width: 56%;
+	padding-bottom:100px;
+	padding-top:100px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.image img {
+	width: 100%;
+}
+.clear {
+	clear:both;
+}
+.text h3 {
+	color: #3A4042;
+	font-size: 30px;
+	letter-spacing: 0.3em;
+	word-spacing: .3em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	padding-bottom: 50px;
 }
 h3 {
-	font-size: 20px;
-	line-height:1.5em;
-	padding-left: 20px;
-	text-align: center;
+	color: #3A4042;
+	font-size: 30px;
+	letter-spacing: 0.3em;
+	word-spacing: .3em;
+	line-height: 1.5em;
+	text-transform: uppercase;
 }
-.skillset p {
-	text-align: center;
+h4 {
+	color: #3A4042;
+	font-size: 15px;
+	line-height: 1.5em;
+	text-transform: uppercase;
 }
-.design {
-	display: inline-block;
-	width: 33.33333%;
-	float: left;
-	margin: 20px 0 50px 0;
+.text p {
+	color: #828A8E;
+	font-size: 13px;
+	line-height: 1.5em;
 }
-.html {
-	display: inline-block;
-	width: 33.33333%;
-	float: left;
-	margin: 20px 0 50px 0;
+
+/* Work */
+#work {
+	background-color:#E7E6E6;
+	padding: 200px;
 }
-.photoshop {
-	display: inline-block;
-	width: 33.33333%;
-	float: left;
-	margin: 20px 0 50px 0;
+ul {
+	float: right;
 }
-.illustrator {
-	display: inline-block;
-	width: 33.33333%;
-	float: left;
-	margin: 20px 0 50px 0;
+li {
+	float:left;
 }
-.version_control {
-	display: inline-block;
-	width: 33.33333%;
-	float: left;
-	margin: 20px 0 50px 0;
-} 
-.other {
-	display: inline-block;
-	width: 33.33333%;
-	float: left;
-	margin: 20px 0 50px 0;
-} 
+ul li {
+	color: #FEFEFF;
+	font-size: 10px;
+	line-height: 1.5em;
+}
+#work img {
+	width: 300px;
+}
+/* Contact */
+#contact {
+	background-color:#727C80;
+	padding: 200px;
+}
+#contact h3 {
+	color: #FEFEFF;
+	font-size: 30px;
+	letter-spacing: 0.5em;
+	word-spacing: .7em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+#contact p {
+	color: #3D4245;
+	font-size: 10px;
+	line-height: 1.5em;
+}
+#contact li {
+	color: #3D4245;
+	font-size: 10px;
+	line-height: 1.5em;
+}
+
+/* Footer */
+#footer {
+	background-color:#3A4042;
+	padding: 50px;
+}
+#footer img {
+	width: 40px;
+}
