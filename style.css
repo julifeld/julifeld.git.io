@@ -11,7 +11,11 @@ body {
 	background-color:#F6F6F6;
 	padding: 50px;
 }
-
+#nav p {
+	font-size: 80px;
+	line-height: 1.5em;
+	text-align: center;
+}
 /* Julia Feld */
 #juliafeld {
 	background-color:#727C80;
