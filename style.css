@@ -63,6 +63,7 @@ body {
 #about {
 	background-color:#FEFEFF;
 }
+
 .image {
 	float: left;
 	line-height: 0;
@@ -75,7 +76,7 @@ body {
 	padding-bottom:100px;
 	color:#E7E6E6;
 }
-.text {
+.headingText {
 	float: right;
 	overflow: hidden;
 	width: 56%;
@@ -91,7 +92,7 @@ body {
 .clear {
 	clear:both;
 }
-.text h3 {
+.headingText h3 {
 	color: #3A4042;
 	font-size: 30px;
 	letter-spacing: 0.3em;
@@ -114,7 +115,7 @@ h4 {
 	line-height: 1.5em;
 	text-transform: uppercase;
 }
-.text p {
+.headingText p {
 	color: #828A8E;
 	font-size: 13px;
 	line-height: 1.5em;
@@ -126,11 +127,26 @@ h4 {
 	padding: 200px;
 }
 ul {
-	float: right;
+	display: inline-block;
+  	width: 40%;
+  	float: left;
+}
+.juliaImage {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  padding-left: 
+}
+.text {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
 }
 li {
 	float:left;
+	padding-bottom: 20%;
 }
+
 ul li {
 	color: #FEFEFF;
 	font-size: 10px;
