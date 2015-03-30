@@ -6,7 +6,7 @@ body {
 a {
   text-decoration: none;
 }
-
+                    /*First Slide*/
 #hero {
   background-color: #727C80;
   height: 100vh;
@@ -76,6 +76,53 @@ a {
   }
 }
 
+                    /*Portfolio Slide*/
+#portfolio {
+  height: 100vh;
+  background-color: #E7E6E6;
+  position: relative;
+  text-align: center;
+}
+#portfolio .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  width: 100%;
+}
+#portfolio h3 {
+  font-size: 30px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  word-spacing: .1em;
+  margin-bottom: 60px;
+}
+#portfolio a {
+  background-color: #727C80;
+  display: inline-block;
+  line-height: 0;
+  margin: 0 30px 20px;
+}
+#portfolio a:hover {
+  background-color: #81A8B2;
+}
+@media screen and (max-width: 1280px) {
+  #portfolio h3 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  #portfolio img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 560px) {
+  #portfolio a {
+    margin: 0 40px 40px;
+  }
+}
+
+                    /*Contact Slide*/
 #contact {
   height: 100vh;
   background-color: #FEFEFF;
@@ -117,7 +164,7 @@ a {
   text-transform: uppercase;
   letter-spacing: .1em;
   word-spacing: .1em;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 #contact .right p, #contact .right a {
   font-weight: lighter;
@@ -133,7 +180,6 @@ a {
 #contact .right a:hover {
   color: #81A8B2;
 }
-
 @media screen and (max-width: 1280px) {
   #contact .right h3 {
     font-size: 18px;
@@ -144,7 +190,6 @@ a {
     margin-bottom: 10px;
   }
 }
-
 @media screen and (max-width: 960px) and (max-height: 1280px) {
   #contact .left img {
     width: initial;
